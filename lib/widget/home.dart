@@ -1,7 +1,7 @@
 import 'package:clima_app/clases/clima.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'dart:convert'; // esto es necesario para usar json.decode
+import 'dart:convert'; 
 
 
 class ClimaScreen extends StatefulWidget {
@@ -20,7 +20,7 @@ class _ClimaScreenState extends State<ClimaScreen> {
     'Nicaragua',
   ];
 
-  final String apiKey = 'c9a8f13d9141da13b73096de9cab5cc5'; // tu API key
+  final String apiKey = 'c9a8f13d9141da13b73096de9cab5cc5'; // mi apikey
 
   List<ClimaInfo> climaData = [];
   bool isLoading = true;
